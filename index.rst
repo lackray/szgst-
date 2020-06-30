@@ -18,6 +18,16 @@ github地址_
     正点原子STM32开发板/stm32h750北极星开发板
 
 
+
+.. toctree::
+    :caption: Smart vibration sensor (STM32)
+    :numbered:
+
+
+    Smart vibration sensor (STM32)/Smart vibration sensor (STM32)
+
+
+
 .. toctree::
     :caption: 基础语法
     :numbered:

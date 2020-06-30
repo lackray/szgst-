@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. AI小课堂 &mdash; test1  文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="1. 标题学习" href="../基础语法/标题.html" />
+    <link rel="prev" title="1. stm32h750北极星开发板" href="../正点原子STM32开发板/stm32h750北极星开发板.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> test1
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">正点原子STM32开发板</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../正点原子STM32开发板/stm32h750北极星开发板.html">1. stm32h750北极星开发板</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Smart vibration sensor (STM32)</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. AI小课堂</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#objectives-of-the-tutorial">1.1. Objectives of the tutorial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#project-constraints">1.1.1. Project constraints</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">1.2. Requirements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hardware">1.2.1. Hardware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#software">1.2.2. Software</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">基础语法</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/标题.html">1. 标题学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/段落.html">2. 段落学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/列表.html">3. 列表学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../基础语法/块.html">4. 块学习</a></li>
+</ul>
+<p class="caption"><span class="caption-text">中级语法</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/表格.html">1. 表格学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/水平线.html">2. 水平线学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/显式标记.html">3. 显式标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/引用.html">4. 引用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/超链接.html">5. 超链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/图片.html">6. 图片</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/替换引用和定义.html">7. 替换引用和定义</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/注释.html">8. 注释</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/代码块.html">9. 代码块</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../中级语法/强调.html">10. 强调</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Sphinx标记结构</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx标记结构/toctree.html">1. toctree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx标记结构/内联标记.html">2. 内联标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx标记结构/段落级别标记.html">3. 段落级别标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx标记结构/表内容标记.html">4. 表内容标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx标记结构/显示代码.html">5. 显示代码</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx标记结构/其他标记.html">6. 其他标记</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">test1</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span>AI小课堂</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Smart vibration sensor (STM32)/Smart vibration sensor (STM32).rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ai">
+<h1><span class="section-number">1. </span>AI小课堂<a class="headerlink" href="#ai" title="永久链接至标题">¶</a></h1>
+<div class="figure align-default" id="pic-major-fan-preview">
+<img alt="../_images/fan_preview.jpg" src="../_images/fan_preview.jpg" />
+</div>
+<div class="figure align-default" id="pic-major-banner">
+<img alt="../_images/banner.png" src="../_images/banner.png" />
+</div>
+<div class="section" id="objectives-of-the-tutorial">
+<h2><span class="section-number">1.1. </span>Objectives of the tutorial<a class="headerlink" href="#objectives-of-the-tutorial" title="永久链接至标题">¶</a></h2>
+<p>This project’s goal is to create a device that can be placed directly on a vibrating machine, that will learn its vibration patterns, and detect potential anomalies in its behavior.</p>
+<p>This device will integrate and use Cartesiam’s NanoEdge AI Library, which will be selected via NanoEdge AI Studio.</p>
+<div class="section" id="project-constraints">
+<h3><span class="section-number">1.1.1. </span>Project constraints<a class="headerlink" href="#project-constraints" title="永久链接至标题">¶</a></h3>
+<p>The device will be able to:</p>
+<p>register the user’s instructions (learn, detect, reset, etc.)
+detect vibrations
+learn vibration patterns
+alert the user when an anomaly is detected</p>
+</div>
+</div>
+<div class="section" id="requirements">
+<h2><span class="section-number">1.2. </span>Requirements<a class="headerlink" href="#requirements" title="永久链接至标题">¶</a></h2>
+<div class="section" id="hardware">
+<h3><span class="section-number">1.2.1. </span>Hardware<a class="headerlink" href="#hardware" title="永久链接至标题">¶</a></h3>
+<p>The required hardware for this project are:</p>
+<dl>
+<dt>NUCLEO-F401RE</dt><dd><p>STM32 Nucleo-64 development board with STM32F401RE MCU.
+<a class="reference external" href="https://www.st.com/en/evaluation-tools/nucleo-f401re.html">https://www.st.com/en/evaluation-tools/nucleo-f401re.html</a></p>
+<div class="figure align-default" id="pic-major-nucleo-f401re1">
+<img alt="../_images/NUCLEO-F401RE1.jpg" src="../_images/NUCLEO-F401RE1.jpg" />
+</div>
+</dd>
+<dt>BMI160</dt><dd><p>A small, low power, low noise 16-bit Inertial Measurement Unit (IMU), combining accelerometer and gyroscope.
+<a class="reference external" href="https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi160.html">https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi160.html</a></p>
+<div class="figure align-default" id="pic-major-bmi160-module2">
+<img alt="../_images/bmi160-module2.png" src="../_images/bmi160-module2.png" />
+</div>
+</dd>
+<dt>USB Fan</dt><dd><p>upHere U120 Silent Dual 120mm USB PC Fan, rotation speed: 1600rpm ± 10%
+<a class="reference external" href="https://www.amazon.com/upHere-Computer-Cabinet-Playstation-Cooling/dp/B081SYFZZN">https://www.amazon.com/upHere-Computer-Cabinet-Playstation-Cooling/dp/B081SYFZZN</a></p>
+<div class="figure align-default" id="pic-major-fan11">
+<img alt="../_images/fan11.png" src="../_images/fan11.png" />
+</div>
+</dd>
+<dt>Post-it</dt><dd><p>A small piece of paper can go a long way! Use it to block your fan.
+<a class="reference external" href="https://www.amazon.fr/Post-Notes-Super-Sticky-47/dp/B00ST46FEY/">https://www.amazon.fr/Post-Notes-Super-Sticky-47/dp/B00ST46FEY/</a></p>
+<div class="figure align-default" id="pic-major-postit1">
+<img alt="../_images/postit1.jpg" src="../_images/postit1.jpg" />
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="software">
+<h3><span class="section-number">1.2.2. </span>Software<a class="headerlink" href="#software" title="永久链接至标题">¶</a></h3>
+<p>The required software for this project are:</p>
+<p>ARM Mbed OS 5</p>
+<blockquote>
+<div><p>Offline development with the command-line tool ARM Mbed CLI
+<a class="reference external" href="https://os.mbed.com/docs/mbed-os/v5.15/quick-start/offline-with-mbed-cli.html">https://os.mbed.com/docs/mbed-os/v5.15/quick-start/offline-with-mbed-cli.html</a>
+Version used in the tutorial: 1.10.2</p>
+</div></blockquote>
+<p>The GNU-RM Embedded Toolchain</p>
+<blockquote>
+<div><p><a class="reference external" href="https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads">https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads</a>
+Version used in the tutorial: 9-2019-q4-major</p>
+</div></blockquote>
+<p>Git</p>
+<blockquote>
+<div><p>Git is a free and open source distributed version control system.
+<a class="reference external" href="https://git-scm.com/">https://git-scm.com/</a></p>
+</div></blockquote>
+<p>Pygame</p>
+<blockquote>
+<div><p>Pygame is a set of Python modules designed for writing video games and multimedia programs.
+<a class="reference external" href="https://www.pygame.org/wiki/GettingStarted">https://www.pygame.org/wiki/GettingStarted</a></p>
+</div></blockquote>
+<p>NanoEdge AI Studio</p>
+<blockquote>
+<div><p>Download NanoEdge AI Studio for free by filling out the following form:
+<a class="reference external" href="https://share.hsforms.com/1vVgNZ5JfQAWeJs10Yw6oHQ2a3c9">https://share.hsforms.com/1vVgNZ5JfQAWeJs10Yw6oHQ2a3c9</a></p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../基础语法/标题.html" class="btn btn-neutral float-right" title="1. 标题学习" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../正点原子STM32开发板/stm32h750北极星开发板.html" class="btn btn-neutral float-left" title="1. stm32h750北极星开发板" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; 版权所有 2020, 苏州感测通信息科技有限公司
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
