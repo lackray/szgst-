@@ -21,7 +21,7 @@ project = 'test1'
 copyright = '2020, 苏州感测通信息科技有限公司'
 author = 'Mike'
 
-
+version = u'1.0.0'
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
